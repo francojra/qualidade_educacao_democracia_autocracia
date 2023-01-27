@@ -1,0 +1,1 @@
+# qualidade_educacao_democracia_autocracia
