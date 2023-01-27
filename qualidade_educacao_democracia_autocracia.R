@@ -55,12 +55,28 @@ ggplot(pisa_read1, aes(x = fct_reorder(Entity, media),
                        y = media, fill = Entity)) +
   geom_col(width = 0.9) +
   geom_errorbar(aes(ymin = media - se, ymax = media + se),
-                width = 0.2, linewidth = 0.8) +
+                width = 0.2, size = 0.8) +
   scale_fill_manual(values = c("#88CCEE", "#CC6677",
                                "#DDCC77", "#117733")) +
   scale_y_continuous(expand = expansion(mult = c(0,0))) +
+  scale_x_discrete(labels = c("Estados Unidos", "Alemanha",
+                              "Japão", "China")) +
   labs(x = "Países", y = "Desempenho em leitura \nPISA test score") +
   theme_ipsum(axis_text_size = 14, axis_title_size = 16) +
   theme(legend.position = "none",
         axis.text = element_text(color = "black"))
 
+ggplot(pisa_read2, aes(x = factor(Year), y = performance,
+                       color = Entity, group = Entity)) +
+  geom_point(shape = 15, size = 2.5) +
+  geom_line(size = 1.2) +
+  scale_color_manual(values = c("#88CCEE", "#CC6677",
+                                "#DDCC77", "#117733")) +
+  scale_x_continuous(expand = expansion(mult = c(0,0))) +
+  labs(x = "Tempo (anos)", 
+       y = "Desempenho em leitura \nPISA test score",
+       color = "Países") +
+  theme_ipsum(axis_text_size = 14, 
+              axis_title_size = 16) +
+  theme(axis.text = element_text(color = "black"))
+                                 
