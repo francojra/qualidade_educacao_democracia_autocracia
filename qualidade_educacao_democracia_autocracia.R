@@ -71,8 +71,10 @@ ggplot(pisa_read2, aes(x = factor(Year), y = performance,
   geom_point(shape = 15, size = 2.5) +
   geom_line(size = 1.2) +
   scale_color_manual(values = c("#88CCEE", "#CC6677",
-                                "#DDCC77", "#117733")) +
-  scale_x_continuous(expand = expansion(mult = c(0,0))) +
+                                "#DDCC77", "#117733"),
+                     labels = c("China", "Alemanha",
+                                "Japão", "Estados Unidos")) +
+  scale_x_discrete(expand = expansion(mult = c(0.1,0.1))) +
   labs(x = "Tempo (anos)", 
        y = "Desempenho em leitura \nPISA test score",
        color = "Países") +
