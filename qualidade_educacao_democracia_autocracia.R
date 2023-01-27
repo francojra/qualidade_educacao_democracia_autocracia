@@ -17,7 +17,14 @@ library(ggthemes)
 
 # Carregar dados ---------------------------------------------------------------------------------------------------------------------------
 
+pisa_read <- read.csv("pisa-test-score-mean-performance-on-the-reading-scale.csv")
+view(pisa_read)
+names(pisa_read)
 
+# Manipular dados --------------------------------------------------------------------------------------------------------------------------
 
-
+pisa_read <- pisa_read %>%
+  select(-Code) %>%
+  rename(performance = PISA..Mean.performance.on.the.reading.scale) %>%
+  view()
 
