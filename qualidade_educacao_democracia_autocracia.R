@@ -82,3 +82,16 @@ ggplot(pisa_read2, aes(x = factor(Year), y = performance,
               axis_title_size = 16) +
   theme(axis.text = element_text(color = "black"))
                                  
+ggplot(pisa_read3, aes(x = factor(Year), y = performance,
+                       color = Entity, group = Entity)) +
+  geom_line(size = 2) +
+  scale_color_manual(values = c('#1B9E77', '#999999','#E69F00'),
+                     labels = c("Brasil", "China", "Estados Unidos")) +
+  scale_x_discrete(expand = expansion(mult = c(0.1,0.1))) +
+  labs(x = "Tempo (anos)", 
+       y = "Desempenho em leitura \nPISA test score",
+       color = "Países") +
+  theme_light() +
+  theme(axis.title = element_text(size = 18),
+        axis.text = element_text(color = "black", size = 15),
+        legend.text = element_text(size = 12))
