@@ -6,7 +6,8 @@
 
 # Sobre os dados ---------------------------------------------------------------------------------------------------------------------------
 
-### 
+### O Program for International Student Assessment (PISA), que é coordenado pelo OECD, é a 
+### mais bem conhecida avaliação internacional dos resultados de aprendizagem
 
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
