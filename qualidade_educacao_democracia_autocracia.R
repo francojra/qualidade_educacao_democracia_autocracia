@@ -28,3 +28,11 @@ pisa_read <- pisa_read %>%
   rename(performance = PISA..Mean.performance.on.the.reading.scale) %>%
   view()
 
+pisa_read1 <- pisa_read %>%
+  filter(Entity %in% c("China", "United States", "Japan", "Germany"),
+         Year %in% c("2009", "2012", "2015")) %>%
+  group_by(Entity) %>%
+  summarise(media = mean(performance),
+            sd = sd(performance), n = n(),
+            se = sd/sqrt(n)) %>%
+  view()
