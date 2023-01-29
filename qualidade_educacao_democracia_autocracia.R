@@ -26,6 +26,14 @@
 ### do contexto em que estudantes deveriam ser capazes de usar as habilidades deles (escolas, casas
 ### sociedade).
 
+### O teste do PISA avalia os estudantes em três dimensões, que são definidas como as seguintes:
+
+### Alfabetização científica: definida como a habilidade para engajar com temas relacionados à
+### ciência, e com ideias sobre ciência, como um cidadão reflexivo. Uma pessoa cientificamente
+### alfabetizada está disposta a engajar em discursos sobre ciência e tecnologia, que requer as 
+### competências para explicar fenômenos científicos, avaliar e conceber investigação científica,
+### e interpretar dados e evidências cientificamente.
+
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
 library(tidyverse)
