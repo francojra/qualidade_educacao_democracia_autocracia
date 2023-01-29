@@ -34,9 +34,16 @@
 ### competências para explicar fenômenos científicos, avaliar e conceber investigação científica,
 ### e interpretar dados e evidências cientificamente.
 
-### Alfabetização em leitura: é definido como a habilidade dos estudantes para entender, usar,
+### Alfabetização em leitura: é definida como a habilidade dos estudantes para entender, usar,
 ### refletir sobre e engajar com textos escritos a fim de alcançar os objetivos deles, 
 ### desenvolver o conhecimento e potencial deles, e participar em sociedade.
+
+### Alfabetização em matemática: é definida como a capacidade dos estudantes de formular, empregar
+### e interpretar matemática em uma variedade de contextos. Ele inclui raciocínio matemático e uso de
+### conceitos, procedimentos, fatos e ferramentas da matemática para descrever, explicar e predizer
+### fenômenos. Ela ajuda os indivíduos no reconhecimento do papel da matemática no mundo e para
+### fazer bem fundados julgamentos e decisões necessárias para cidadãos construtivos, empenhados
+### e reflexivos.
 
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
