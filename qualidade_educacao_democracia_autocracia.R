@@ -10,6 +10,9 @@
 ### mais bem conhecida avaliação internacional dos resultados de aprendizagem. O primeiro
 ### estudo do PISA foi conduzido em 1997 e desde então ele foi repetido a cada três anos.
 
+### O estudo não seleciona estudantes por grau, mas por idade e a partir dos 15 anos, qualquer
+### que seja o nível escolar.
+
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
 library(tidyverse)
