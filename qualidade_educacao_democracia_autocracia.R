@@ -34,6 +34,10 @@
 ### competências para explicar fenômenos científicos, avaliar e conceber investigação científica,
 ### e interpretar dados e evidências cientificamente.
 
+### Alfabetização em leitura: é definido como a habilidade dos estudantes para entender, usar,
+### refletir sobre e engajar com textos escritos a fim de alcançar os objetivos deles, 
+### desenvolver o conhecimento e potencial deles, e participar em sociedade.
+
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
 library(tidyverse)
