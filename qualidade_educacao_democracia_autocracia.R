@@ -11,7 +11,10 @@
 ### estudo do PISA foi conduzido em 1997 e desde então ele foi repetido a cada três anos.
 
 ### O estudo não seleciona estudantes por grau, mas por idade e a partir dos 15 anos, qualquer
-### que seja o nível escolar.
+### que seja o nível escolar. Em duas horas de avaliação, as competências em leitura, matemática
+### e ciências desses estudantes são avaliadas. Trata-se de um compromisso muito substancial e
+### até 2017 "meio milhão de estudantes representando 28 milhões com 15 anos de idade em 72 países
+### e economias tem participado do PISA" de acordo com a OECD.
 
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
