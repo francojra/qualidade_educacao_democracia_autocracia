@@ -7,7 +7,8 @@
 # Sobre os dados ---------------------------------------------------------------------------------------------------------------------------
 
 ### O Program for International Student Assessment (PISA), que é coordenado pelo OECD, é a 
-### mais bem conhecida avaliação internacional dos resultados de aprendizagem
+### mais bem conhecida avaliação internacional dos resultados de aprendizagem. O primeiro
+### estudo do PISA foi conduzido em 1997 e desde então ele foi repetido a cada três anos.
 
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
