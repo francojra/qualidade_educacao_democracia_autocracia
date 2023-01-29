@@ -21,6 +21,11 @@
 ### sido o caso nem todos os estudantes desses países mais pobres foram selecionados, mas em vez 
 ### disso, apenas em regiões específicas.
 
+### Enquanto o TIMSS foca sobre o conteúdo que é coberto na escola, o PISA tem o objetivo de 
+### "avaliar a aplicação das habilidades para problemas da vida real" e "enfatizar a importância
+### do contexto em que estudantes deveriam ser capazes de usar as habilidades deles (escolas, casas
+### sociedade).
+
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
 library(tidyverse)
