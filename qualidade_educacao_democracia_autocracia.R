@@ -16,7 +16,10 @@
 ### até 2017 "meio milhão de estudantes representando 28 milhões com 15 anos de idade em 72 países
 ### e economias tem participado do PISA" de acordo com a OECD. A cobertura do PISA pode ser vista
 ### nesse mapa sobre os resultados da dimensão em leitura, ele obviamente inclui os países mais
-### ricos da OECD e infelizmente apenas poucos países mais pobres.
+### ricos da OECD e infelizmente apenas poucos países mais pobres. Países mais pobres também não
+### são testados regularmente e participaram apenas em uma etapa, e adicionalmente ele pode ter
+### sido o caso nem todos os estudantes desses países mais pobres foram selecionados, mas em vez 
+### disso, apenas em regiões específicas.
 
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
