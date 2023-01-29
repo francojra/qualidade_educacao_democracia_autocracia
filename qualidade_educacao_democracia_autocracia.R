@@ -45,6 +45,13 @@
 ### fazer bem fundados julgamentos e decisões necessárias para cidadãos construtivos, empenhados
 ### e reflexivos.
 
+### Países que não são da OECD e que apresentaram o teste PISA, não incluem estudantes de 
+### todas as regiões. Por exemplo, a China apresentou teste para apenas quatro provícias chinesas:
+### Beijing, Shanghai, Jiangsu and Guangdong. Essas regiões não são representativas da China como
+### um todo e existe razão para esperar que os estudantes dessas províncias tenham acesso a melhor
+### educação que a média dos chineses com 15 anos de idade. As quatro regiões estão entre as mais
+### ricas da China e a renda é duas vezes maior que a média do país.
+
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
 library(tidyverse)
