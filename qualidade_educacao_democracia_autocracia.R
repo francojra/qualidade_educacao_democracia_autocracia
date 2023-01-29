@@ -14,7 +14,9 @@
 ### que seja o nível escolar. Em duas horas de avaliação, as competências em leitura, matemática
 ### e ciências desses estudantes são avaliadas. Trata-se de um compromisso muito substancial e
 ### até 2017 "meio milhão de estudantes representando 28 milhões com 15 anos de idade em 72 países
-### e economias tem participado do PISA" de acordo com a OECD.
+### e economias tem participado do PISA" de acordo com a OECD. A cobertura do PISA pode ser vista
+### nesse mapa sobre os resultados da dimensão em leitura, ele obviamente inclui os países mais
+### ricos da OECD e infelizmente apenas poucos países mais pobres.
 
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
