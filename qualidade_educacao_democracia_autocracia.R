@@ -52,6 +52,9 @@
 ### educação que a média dos chineses com 15 anos de idade. As quatro regiões estão entre as mais
 ### ricas da China e a renda é duas vezes maior que a média do país.
 
+### Similarmente quando o PISA informou sobre a Índia em 2009, as avaliações foram feitas em
+### apenas dois estados da Índia (Himachal Pradesh and Tamil Nadu).
+
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
 library(tidyverse)
