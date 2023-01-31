@@ -126,6 +126,30 @@ pisa_math3 <- pisa_math %>%
          Year %in% c("2009", "2012", "2015")) %>%
   view()
 
+pisa_sci <- pisa_sci %>%
+  select(-Code) %>%
+  rename(performance = PISA..Mean.performance.on.the.science.scale) %>%
+  view()
+
+pisa_sci1 <- pisa_sci %>%
+  filter(Entity %in% c("China", "United States", "Japan", "Germany"),
+         Year %in% c("2009", "2012", "2015")) %>%
+  group_by(Entity) %>%
+  summarise(media = mean(performance),
+            sd = sd(performance), n = n(),
+            se = sd/sqrt(n)) %>%
+  view()
+
+pisa_sci2 <- pisa_sci %>%
+  filter(Entity %in% c("China", "United States", "Japan", "Germany"),
+         Year %in% c("2009", "2012", "2015")) %>%
+  view()
+
+pisa_sci3 <- pisa_sci %>%
+  filter(Entity %in% c("China", "United States", "Brazil"),
+         Year %in% c("2009", "2012", "2015")) %>%
+  view()
+
 # Gráficos ---------------------------------------------------------------------------------------------------------------------------------
 
 c4a("safe", 4)
