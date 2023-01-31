@@ -68,6 +68,14 @@ pisa_read <- read.csv("pisa-test-score-mean-performance-on-the-reading-scale.csv
 view(pisa_read)
 names(pisa_read)
 
+pisa_math <- read.csv("pisa-test-score-mean-performance-on-the-mathematics-scale.csv")
+view(pisa_math)
+names(pisa_math)
+
+pisa_sci <- read.csv("pisa-test-score-mean-performance-on-the-science-scale.csv")
+view(pisa_sci)
+names(pisa_sci)
+
 # Manipular dados --------------------------------------------------------------------------------------------------------------------------
 
 pisa_read <- pisa_read %>%
